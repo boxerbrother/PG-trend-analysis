@@ -1,0 +1,1 @@
+C:\Users\sonikar\AppData\Local\Programs\Python\Python312\python.exe C:\Users\sonikar\Documents\ProcessAutomation\PG_Trend_Project\main.py
