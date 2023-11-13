@@ -2,6 +2,7 @@ import logging
 import pandas as pd
 import time
 import os
+import datetime
 
 class Pd():
     logging.info("Begin to process the HGPD File...")
@@ -60,15 +61,15 @@ class Pd():
             # # find words using this formula
             # # =IF(ISNUMBER(SEARCH("RC",E2)),"RC",IF(ISNUMBER(SEARCH("MEC",E2)),"MEC",IF(ISNUMBER(SEARCH("ARS",E2)),"ARS",IF(ISNUMBER(SEARCH("TRP",E2)),"TRP",IF(ISNUMBER(SEARCH("CC",E2)),"CC","Counter")))))
             if (str(df).find("RC") >= 0):
-                return 'RC'
+                return 'AFM'
             elif (str(df).find("MEC") >= 0):
-                return 'MEC'
+                return 'AFM'
             elif (str(df).find("ARS") >= 0):
-                return 'ARS'
+                return 'AFM'
             elif (str(df).find("TRP") >= 0):
-                return 'TRP'
+                return 'AFM'
             elif (str(df).find("CC") >= 0):
-                return 'CC'
+                return 'AFM'
             else:
                 return 'Counter'
 
@@ -101,6 +102,7 @@ class Pd():
                                            aggfunc="sum"
                                           )
 
+        ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         #Write the pivoted data in a excel file 'output.xlsx'
         filename = 'PD_output_pivot'+month_name.to_string(header=False,index=False) + ts +'.xlsx'
         output_file = r'C:\Users\sonikar\Documents\Scheme Formulation\Process_automation_output\PG_trend_analysis'+ '\\' + filename

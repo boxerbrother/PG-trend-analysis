@@ -27,3 +27,4 @@ if __name__ == "__main__":
         hgpdFileProcessor.Hgpd.hgpdFileProcessor(file)
         print("Done processing HGPD file...")
     logger.Logger.clockTime('END')
+    time.sleep(30000)

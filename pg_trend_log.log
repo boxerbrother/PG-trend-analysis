@@ -1,0 +1,24 @@
+2023-11-12 20:03:54,628  22 ##########################################
+2023-11-12 20:03:54,628  23 Process Started... 
+2023-11-12 20:03:54,628  24 ##########################################
+2023-11-12 20:03:58,052  17 PD File provided is valid C:\Users\sonikar\Documents\Scheme Formulation\AWPR\Oct'23\AWPR PDSS Combined Oct'23.xlsx
+2023-11-12 20:03:58,052  19 Begin reading the PD file...
+2023-11-12 20:06:42,612  31 Reading Sheet 'AWPR 1' from excel
+2023-11-12 20:06:42,648  31 Reading Sheet 'AWPR 2' from excel
+2023-11-12 20:06:43,172  50 Vlookup has begun...
+2023-11-12 20:06:43,576  55 Updated the column names to have month in the name
+2023-11-12 20:06:43,577  76 Adding 'TYPE' column...
+2023-11-12 20:06:44,750  98 Pivoting has begun...
+2023-11-12 20:06:45,206  109 Writing to output file C:\Users\sonikar\Documents\Scheme Formulation\Process_automation_output\PG_trend_analysis\PD_output_pivot2023 Oct20231112_200645.xlsx
+2023-11-12 20:06:48,930  30 ##########################################
+2023-11-12 20:06:48,930  31 Process Ended in 2.941865811663835 mins
+2023-11-12 20:06:48,930  32 ##########################################
+2023-11-12 20:07:12,380  31 Reading Sheet 'AWPR 1' from excel
+2023-11-12 20:07:12,400  31 Reading Sheet 'AWPR 2' from excel
+2023-11-12 20:07:12,445  31 Reading Sheet 'AWPR 3' from excel
+2023-11-12 20:07:13,186  50 Vlookup has begun...
+2023-11-12 20:07:13,635  71 Pivoting has begun...
+2023-11-12 20:07:14,045  84 Writing to output file C:\Users\sonikar\Documents\Scheme Formulation\Process_automation_output\PG_trend_analysis\HGPD_output_pivot2023 Oct20231112_200714.xlsx
+2023-11-12 20:07:14,339  30 ##########################################
+2023-11-12 20:07:14,339  31 Process Ended in 3.5875576116649124 mins
+2023-11-12 20:07:14,339  32 ##########################################
